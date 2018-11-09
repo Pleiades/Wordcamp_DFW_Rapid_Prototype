@@ -414,7 +414,7 @@ if( defined( 'WP_CLI' ) && WP_CLI ) {
 		function produce ( $args ) {
                 	
 				$this->podname  = 'ingredient';
-				$this->file     = wp_upload_dir()['basedir'] . '/ingredients.csv';
+				$this->file     = content_url() . '/mock-data/ingredients.csv';
 				$this->produce	= TRUE;
 				$this->process_args( 'Loading Produce PODS...' );
 		}
@@ -422,7 +422,7 @@ if( defined( 'WP_CLI' ) && WP_CLI ) {
 		function gardening ( $args ) {
                 	
 				$this->podname   = 'gardening';
-				$this->file      = wp_upload_dir()['basedir'] . '/garden_plants.csv';
+				$this->file      = content_url() . '/mock-data/garden_plants.csv';
 				$this->gardening = TRUE;
 				$this->process_args( 'Loading Gardening PODS...' );
 		}
@@ -430,7 +430,7 @@ if( defined( 'WP_CLI' ) && WP_CLI ) {
 		function recipes ( $args, $assoc_args ) {
 			
 				$this->podname = 'recipe';
-				$this->file      = wp_upload_dir()['basedir'] . '/recipes_pro_new.csv';
+				$this->file      = content_url() . '/mock-data/recipes_pro_new.csv';
 				$this->recipe = TRUE;
 				$this->process_args( 'Loading Recipes PODS...' );
 				
@@ -439,7 +439,7 @@ if( defined( 'WP_CLI' ) && WP_CLI ) {
 		function menus ( $args, $assoc_args ) {
 			
 				$this->podname = 'menu_item';
-				$this->file      = wp_upload_dir()['basedir'] . '/menus.csv';
+				$this->file      = content_url() . '/mock-data/menus.csv';
 				$this->menus = TRUE;
 				$this->process_args( 'Events - Call Center' );
 		}
@@ -470,8 +470,9 @@ set_time_limit(0);
 ini_set('memory_limit', '512M');
 */
 
+/*
 // If you don't want to use WP-CLI: 
-// $a = new PodsImporter;
-// $produce = $a->ParseCsvFile( $uploads['basedir'] . '/ingredients.csv');
-
+$a = new PodsImporter;
+$produce = $a->ParseCsvFile( $uploads['basedir'] . '/ingredients.csv');
+*/
 ?>
