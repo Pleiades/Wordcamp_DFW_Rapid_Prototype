@@ -315,7 +315,7 @@ class PodsImporter {
 	function RetrieveImage( $image_type ) {
 		
 		if ( empty($this->image_array) || $this->image_index >= count($this->image_array) ) {
-			$images = file_get_contents("https://pixabay.com/api/?key=2506626-ab647979ac2e2344eaadd6367&q={$image_type}&image_type=photo&per_page=200&page={$this->image_page}");
+			$images = file_get_contents("https://pixabay.com/api/?key={KEY}&q={$image_type}&image_type=photo&per_page=200&page={$this->image_page}");
 			$json = json_decode($images, true);
 			
 			$this->image_array = $json['hits'];
