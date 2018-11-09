@@ -266,6 +266,35 @@ class PodsImporter {
 	/**
 	 * The following functions matches the imported spreadsheet to the PODS fields
 	 */
+	function AddUsers( $data ) {
+	
+		//given a set of data, generate the listings and cats
+		if( ! $data ) return; //no data, no dice
+	
+		$image_type = 'avatar';
+		
+		foreach( $data as $user ){
+
+			$fields = array(
+				"name"           => $user[2],
+				"content"        => $user[3],
+				"website"        => $user[5],
+				"phone"          => $user[7],
+				"email"          => $user[8],
+				"street_address" => $user[9],
+				"city"           => $user[10],
+				"state"          => $user[11],
+				"zipcode"        => $user[12],
+			);
+						
+			$id = pods('menu')->add($fields);
+			echo 'Adding User Item (' . $fields["name"] . "\n";
+		
+			$this->PpscAddImage( $id, $this->RetrieveImage( $image_type ) );
+      	
+		}
+	} //end AddUser
+	
 	function AddMenus( $data ) {
 	
 		//given a set of data, generate the listings and cats
@@ -285,32 +314,16 @@ class PodsImporter {
 				"price"   => $item[4] ?? NULL,
 				"status"  => "publish"
 			);
-		/*
-	
-				"content" => $desc,
-				"website" => $x[5],
-				"phone"   => $x[7],
-				"email"   => $x[8],
-				"street_address" => $x[9],
-				"city"    => $x[10],
-				"state"   => $x[11],
-				"zipcode" => $x[12],
-		*/
+			
 			$cids = $this->AddCategories( $item[0], $item[1] ); //handle categories
 			
 			$id = pods('menu')->add($fields);
 			echo 'Adding Menu Item (' . $item[0] .', '. $item[1] .') '. $fields["name"] . "\n";
 		
 			$this->PpscAddImage( $id, $this->RetrieveImage( $image_type ) );
-			/*
-			if(count($cids) && $id){
-				wp_set_object_terms($id, $cids, 'ingredient_category');
-				delete_option("ingredient_category_children"); // clear the cache
-			}
-			*/
       	
 		}
-	} //end AddRecipe
+	} //end AddMenus
   
 	function RetrieveImage( $image_type ) {
 		
@@ -450,28 +463,15 @@ if( defined( 'WP_CLI' ) && WP_CLI ) {
 	WP_CLI::add_command( 'podsloader', 'PODS_Loader_Commands' );
 }
 
-
-
-
+/*
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 set_time_limit(0);
 ini_set('memory_limit', '512M');
+*/
 
-// $uploads = wp_upload_dir();
-
+// If you don't want to use WP-CLI: 
 // $a = new PodsImporter;
 // $produce = $a->ParseCsvFile( $uploads['basedir'] . '/ingredients.csv');
-// var_dump($produce);
-// $a->AddProduce($produce);
-// $a->AddProduce($data, 1146);
-// echo 'done @ '.time();
 
-// $plugin = plugins_url() . '/pods-loader.php';
-// deactivate_plugins(plugin_basename(__FILE__));
-/*
-if (is_plugin_active($plugin) ) {
-	deactivate_plugins($plugin);
-}
-*/
 ?>
