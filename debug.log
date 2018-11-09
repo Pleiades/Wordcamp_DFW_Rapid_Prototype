@@ -1,0 +1,1383 @@
+[04-Nov-2018 05:02:35 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 14
+[04-Nov-2018 05:02:55 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 18
+[04-Nov-2018 05:03:36 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:03:36 UTC] PHP Stack trace:
+[04-Nov-2018 05:03:36 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:03:36 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:03:36 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:03:36 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:03:36 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:03:36 UTC] PHP Stack trace:
+[04-Nov-2018 05:03:36 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:03:36 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:03:36 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:03:36 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:03:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:03:36 UTC] PHP Stack trace:
+[04-Nov-2018 05:03:36 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:03:36 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:03:36 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:03:36 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:09:39 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:39 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:39 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:39 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[04-Nov-2018 05:09:39 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[04-Nov-2018 05:09:39 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:39 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:39 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:39 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[04-Nov-2018 05:09:39 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[04-Nov-2018 05:09:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:39 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:39 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:39 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[04-Nov-2018 05:09:39 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[04-Nov-2018 05:09:40 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:09:40 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:09:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:09:40 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:09:40 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:09:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/faker/faker.php on line 8
+[04-Nov-2018 05:09:40 UTC] PHP Stack trace:
+[04-Nov-2018 05:09:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[04-Nov-2018 05:09:40 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[04-Nov-2018 05:09:40 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[04-Nov-2018 05:13:27 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:13:27 UTC] PHP Stack trace:
+[04-Nov-2018 05:13:27 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:13:27 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:13:27 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:13:27 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:13:27 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:13:27 UTC] PHP Stack trace:
+[04-Nov-2018 05:13:27 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:13:27 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:13:27 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:13:27 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:13:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:13:27 UTC] PHP Stack trace:
+[04-Nov-2018 05:13:27 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:13:27 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:13:27 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:13:27 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:14:50 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:14:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:14:50 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:14:50 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:14:50 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:14:50 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:14:50 UTC] PHP Warning:  require_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:14:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:14:50 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:14:50 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:14:50 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:14:50 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:14:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:14:50 UTC] PHP Stack trace:
+[04-Nov-2018 05:14:50 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:14:50 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:14:50 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:14:50 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:15:29 UTC] PHP Warning:  include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:15:29 UTC] PHP Stack trace:
+[04-Nov-2018 05:15:29 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:15:29 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:15:29 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:15:29 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:15:29 UTC] PHP Warning:  include_once(http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php): failed to open stream: no suitable wrapper could be found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:15:29 UTC] PHP Stack trace:
+[04-Nov-2018 05:15:29 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:15:29 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:15:29 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:15:29 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:15:29 UTC] PHP Warning:  include_once(): Failed opening 'http://wcdfw.test/wp-content/plugins/Faker/src/autoload.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 15
+[04-Nov-2018 05:15:29 UTC] PHP Stack trace:
+[04-Nov-2018 05:15:29 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:0
+[04-Nov-2018 05:15:29 UTC] PHP   2. require() /Users/Shared/Dev/www/wcdfw/wcdfw/index.php:17
+[04-Nov-2018 05:15:29 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php:19
+[04-Nov-2018 05:15:29 UTC] PHP   4. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php:74
+[04-Nov-2018 05:15:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Faker\Factory' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:16
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 16
+[04-Nov-2018 05:17:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Faker\Factory' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:33
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 33
+[04-Nov-2018 05:24:45 UTC] PHP Fatal error:  Uncaught Error: Class 'FakerRestaurant\Provider\en_US\Restaurant' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:35
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 35
+[04-Nov-2018 05:25:16 UTC] PHP Fatal error:  Uncaught Error: Class 'FakerRestaurant\Provider\en_US\Restaurant' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:35
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 35
+[04-Nov-2018 05:26:20 UTC] PHP Fatal error:  Uncaught Error: Class 'FakerRestaurant\Provider\Restaurant' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:35
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 35
+[04-Nov-2018 05:26:44 UTC] PHP Fatal error:  Uncaught Error: Class 'FakerRestaurant\Provider\Restaurant' not found in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php:35
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/template-loader.php(74): include()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-blog-header.php(19): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/index.php(17): require('/Users/Shared/D...')
+#3 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/page_mockdata.php on line 35
+[05-Nov-2018 06:16:10 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 260
+[05-Nov-2018 06:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:10 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:10 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:16:10 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[05-Nov-2018 06:16:10 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:10 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:10 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:16:10 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:16:10 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:10 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:10 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:10 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:10 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:10 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:10 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:10 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:16:10 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:16:10 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:10 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:10 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:10 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:12 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:16:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:12 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:16:12 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:16:12 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:12 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:12 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:12 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:12 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:16:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:12 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:16:12 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:16:12 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:12 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:12 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:12 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:14 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 260
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[05-Nov-2018 06:16:14 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[05-Nov-2018 06:16:14 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:14 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:14 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:14 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:14 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:14 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:14 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 260
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[05-Nov-2018 06:16:14 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[05-Nov-2018 06:16:14 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:14 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:14 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:14 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:16:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:14 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:14 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:16 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:16:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:16 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:16 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:16 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:16 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:16 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:16:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:16 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:16 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:16 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:16 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:16 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:16:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:16 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:16 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:16 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:16 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:16:16 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:16:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:16:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:16:16 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:16:16 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:16:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:16:16 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:16:16 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:02 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 261
+[05-Nov-2018 06:18:02 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:02 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:02 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:18:02 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[05-Nov-2018 06:18:02 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:02 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:02 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:02 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:18:02 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:18:02 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:02 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:02 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:02 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:02 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:02 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:02 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:02 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:18:02 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:18:02 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:02 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:02 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:02 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:04 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:18:04 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:04 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:04 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:18:04 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:18:04 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:04 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:04 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:04 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:04 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:18:04 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:04 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:04 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:18:04 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:586
+[05-Nov-2018 06:18:04 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:04 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:04 UTC] PHP   6. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:04 UTC] PHP   7. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:05 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 261
+[05-Nov-2018 06:18:05 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:05 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:05 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[05-Nov-2018 06:18:05 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[05-Nov-2018 06:18:05 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:05 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:05 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:05 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:05 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:05 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:05 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:05 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:05 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:05 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:05 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:05 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:05 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:05 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:06 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 261
+[05-Nov-2018 06:18:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:06 UTC] PHP   2. plugin_sandbox_scrape() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:178
+[05-Nov-2018 06:18:06 UTC] PHP   3. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:1897
+[05-Nov-2018 06:18:06 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:06 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:06 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:06 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:06 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:06 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:06 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 50
+[05-Nov-2018 06:18:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:06 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:06 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:06 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:06 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:06 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:07 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:18:07 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:07 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:07 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:07 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:18:07 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:07 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:07 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:07 UTC] PHP Notice:  Use of undefined constant page - assumed 'page' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 125
+[05-Nov-2018 06:18:07 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:07 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:07 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:18:07 UTC] PHP Notice:  Use of undefined constant pages - assumed 'pages' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 126
+[05-Nov-2018 06:18:07 UTC] PHP Stack trace:
+[05-Nov-2018 06:18:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:18:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:180
+[05-Nov-2018 06:18:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:18:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:18:07 UTC] PHP   5. pods_cpt_and_taxonomy_loader() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:18:07 UTC] PHP   6. load_pods_tables() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:36
+[05-Nov-2018 06:20:11 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 172
+[05-Nov-2018 06:20:11 UTC] PHP Stack trace:
+[05-Nov-2018 06:20:11 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:20:11 UTC] PHP   2. activate_plugin() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:43
+[05-Nov-2018 06:20:11 UTC] PHP   3. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/plugin.php:555
+[05-Nov-2018 06:20:12 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 172
+[05-Nov-2018 06:20:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:20:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:20:12 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[05-Nov-2018 06:20:12 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:31
+[05-Nov-2018 06:20:12 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:20:12 UTC] PHP   5. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:20:12 UTC] PHP   6. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:20:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:172) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:20:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:20:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:20:12 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[05-Nov-2018 06:20:12 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:20:12 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:20:12 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:20:12 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:20:12 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:20:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:172) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:20:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:20:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:20:12 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[05-Nov-2018 06:20:12 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:20:12 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:20:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:172) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:20:12 UTC] PHP Stack trace:
+[05-Nov-2018 06:20:12 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:20:13 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[05-Nov-2018 06:20:13 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:20:13 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:21:13 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 172
+[05-Nov-2018 06:21:13 UTC] PHP Stack trace:
+[05-Nov-2018 06:21:13 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:21:13 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:22
+[05-Nov-2018 06:21:13 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:21:13 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:21:13 UTC] PHP   5. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:21:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:172) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:21:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:21:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:21:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:21:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:21:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:21:14 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:21:14 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:22:13 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[05-Nov-2018 06:22:13 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:13 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:22:13 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:22
+[05-Nov-2018 06:22:13 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:22:13 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:22:13 UTC] PHP   5. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:22:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:22:14 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:14 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:22:14 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:22:14 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:22:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:22:14 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:22:14 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:22:40 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[05-Nov-2018 06:22:40 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:22:40 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:10
+[05-Nov-2018 06:22:40 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:31
+[05-Nov-2018 06:22:40 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:22:40 UTC] PHP   5. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:22:40 UTC] PHP   6. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:22:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:22:41 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:41 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:22:41 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:10
+[05-Nov-2018 06:22:41 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:22:41 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:22:41 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:22:41 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:22:41 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:22:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:22:41 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:41 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:22:41 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:22:41 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:22:41 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:22:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:22:41 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:41 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:22:41 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:22:41 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:22:41 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:22:42 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[05-Nov-2018 06:22:42 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:42 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:22:42 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:22
+[05-Nov-2018 06:22:42 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:22:42 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:22:42 UTC] PHP   5. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:22:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:22:42 UTC] PHP Stack trace:
+[05-Nov-2018 06:22:42 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:22:42 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:22:42 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:22:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:22:42 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:22:42 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:23:42 UTC] PHP Notice:  Array to string conversion in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[05-Nov-2018 06:23:42 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:42 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:23:42 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:22
+[05-Nov-2018 06:23:42 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[05-Nov-2018 06:23:42 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[05-Nov-2018 06:23:42 UTC] PHP   5. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[05-Nov-2018 06:23:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:23:42 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:42 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:23:42 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:23:42 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:23:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:23:42 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:23:42 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:23:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:23:56 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:23:56 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:10
+[05-Nov-2018 06:23:56 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:23:56 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:23:56 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:23:56 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:23:56 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:23:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:23:56 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:23:56 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:23:56 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:23:56 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:23:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:23:56 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:23:56 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:23:56 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:23:56 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:23:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:23:58 UTC] PHP Stack trace:
+[05-Nov-2018 06:23:58 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:23:58 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:23:58 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:23:58 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:23:58 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:23:58 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:24:59 UTC] PHP Stack trace:
+[05-Nov-2018 06:24:59 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:24:59 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:24:59 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:24:59 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:24:59 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:24:59 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:24:59 UTC] PHP Stack trace:
+[05-Nov-2018 06:24:59 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:24:59 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:10
+[05-Nov-2018 06:24:59 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:24:59 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:24:59 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:24:59 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:24:59 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:24:59 UTC] PHP Stack trace:
+[05-Nov-2018 06:24:59 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:24:59 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:24:59 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:24:59 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:24:59 UTC] PHP Stack trace:
+[05-Nov-2018 06:24:59 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:24:59 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:24:59 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:24:59 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:25:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:25:00 UTC] PHP Stack trace:
+[05-Nov-2018 06:25:00 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:25:00 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:25:00 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:25:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:25:00 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:25:00 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:26:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:174) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:26:00 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:00 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:26:00 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:26:00 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:26:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:26:00 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:26:00 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:26:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:26:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:26:06 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:10
+[05-Nov-2018 06:26:06 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:26:06 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:26:06 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:26:06 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:26:06 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:26:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:26:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:26:06 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:26:06 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:26:06 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:26:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:26:06 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:06 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:0
+[05-Nov-2018 06:26:06 UTC] PHP   2. include() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/index.php:100
+[05-Nov-2018 06:26:06 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:26:06 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:26:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:26:07 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:26:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:26:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:26:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:26:07 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:26:07 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:26:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:26:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:0
+[05-Nov-2018 06:26:16 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:10
+[05-Nov-2018 06:26:16 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:26:16 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:26:16 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:26:16 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:26:16 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:26:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:26:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:0
+[05-Nov-2018 06:26:16 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:38
+[05-Nov-2018 06:26:16 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:26:16 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:26:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:26:16 UTC] PHP Stack trace:
+[05-Nov-2018 06:26:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:0
+[05-Nov-2018 06:26:16 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/tools.php:38
+[05-Nov-2018 06:26:16 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:26:16 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:27:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:27:17 UTC] PHP Stack trace:
+[05-Nov-2018 06:27:17 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:27:17 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:27:17 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:27:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:27:17 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:27:17 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:29:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:29:17 UTC] PHP Stack trace:
+[05-Nov-2018 06:29:17 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:29:17 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:29:17 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:29:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:29:17 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:29:17 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:31:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:31:17 UTC] PHP Stack trace:
+[05-Nov-2018 06:31:17 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:31:17 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:31:17 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:31:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:31:17 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:31:17 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:33:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:33:17 UTC] PHP Stack trace:
+[05-Nov-2018 06:33:17 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:33:17 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:33:17 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:33:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:33:17 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:33:17 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:35:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:35:18 UTC] PHP Stack trace:
+[05-Nov-2018 06:35:18 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:35:18 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:35:18 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:35:18 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:35:18 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:35:18 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:36:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:36:52 UTC] PHP Stack trace:
+[05-Nov-2018 06:36:52 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[05-Nov-2018 06:36:52 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[05-Nov-2018 06:36:52 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:36:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:36:52 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:36:52 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:36:55 UTC] PHP Stack trace:
+[05-Nov-2018 06:36:55 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:36:55 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[05-Nov-2018 06:36:55 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:36:55 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:36:55 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:36:55 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:36:55 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[05-Nov-2018 06:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[05-Nov-2018 06:36:55 UTC] PHP Stack trace:
+[05-Nov-2018 06:36:55 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:36:55 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[05-Nov-2018 06:36:55 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:36:55 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[05-Nov-2018 06:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[05-Nov-2018 06:36:55 UTC] PHP Stack trace:
+[05-Nov-2018 06:36:55 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:36:55 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[05-Nov-2018 06:36:55 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[05-Nov-2018 06:36:55 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[05-Nov-2018 06:37:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:177) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[05-Nov-2018 06:37:01 UTC] PHP Stack trace:
+[05-Nov-2018 06:37:01 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[05-Nov-2018 06:37:01 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[05-Nov-2018 06:37:01 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[05-Nov-2018 06:37:01 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[05-Nov-2018 06:37:01 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[05-Nov-2018 06:37:01 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[05-Nov-2018 06:37:01 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pods() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:164
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php(186): PodsImporter->AddProduce(Array)
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#6 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 164
+[06-Nov-2018 18:32:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pods() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:164
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php(186): PodsImporter->AddProduce(Array)
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#6 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 164
+[06-Nov-2018 18:32:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_plugin_active() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#5 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 191
+[06-Nov-2018 18:39:41 UTC] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 57
+[06-Nov-2018 18:40:13 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 25
+[06-Nov-2018 18:40:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:188) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:40:34 UTC] PHP Stack trace:
+[06-Nov-2018 18:40:34 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:40:34 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:40:34 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[06-Nov-2018 18:40:34 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:40:34 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:40:34 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:40:34 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:40:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:188) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[06-Nov-2018 18:40:35 UTC] PHP Stack trace:
+[06-Nov-2018 18:40:35 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:40:35 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:40:35 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:40:35 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[06-Nov-2018 18:40:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:188) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[06-Nov-2018 18:40:35 UTC] PHP Stack trace:
+[06-Nov-2018 18:40:35 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:40:35 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:40:35 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:40:35 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[06-Nov-2018 18:41:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:41:37 UTC] PHP Stack trace:
+[06-Nov-2018 18:41:37 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[06-Nov-2018 18:41:37 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[06-Nov-2018 18:41:37 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:41:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:41:37 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:41:37 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:41:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:41:37 UTC] PHP Stack trace:
+[06-Nov-2018 18:41:37 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:41:37 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:41:37 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[06-Nov-2018 18:41:37 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:41:37 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:41:37 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:41:37 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:41:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[06-Nov-2018 18:41:39 UTC] PHP Stack trace:
+[06-Nov-2018 18:41:39 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:41:39 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:41:39 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:41:39 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[06-Nov-2018 18:41:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[06-Nov-2018 18:41:39 UTC] PHP Stack trace:
+[06-Nov-2018 18:41:39 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:41:39 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:41:39 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:41:39 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[06-Nov-2018 18:42:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:42:40 UTC] PHP Stack trace:
+[06-Nov-2018 18:42:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[06-Nov-2018 18:42:40 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[06-Nov-2018 18:42:40 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:42:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:42:40 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:42:40 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:44:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:44:47 UTC] PHP Stack trace:
+[06-Nov-2018 18:44:47 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[06-Nov-2018 18:44:47 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[06-Nov-2018 18:44:47 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:44:47 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:44:47 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:44:47 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:45:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:45:47 UTC] PHP Stack trace:
+[06-Nov-2018 18:45:47 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:0
+[06-Nov-2018 18:45:47 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-ajax.php:44
+[06-Nov-2018 18:45:47 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:45:47 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:45:47 UTC] PHP   5. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:45:47 UTC] PHP   6. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:45:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:45:50 UTC] PHP Stack trace:
+[06-Nov-2018 18:45:50 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:45:50 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:45:50 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[06-Nov-2018 18:45:50 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:45:50 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:45:50 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:45:50 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:45:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php on line 1126
+[06-Nov-2018 18:45:56 UTC] PHP Stack trace:
+[06-Nov-2018 18:45:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:45:56 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:45:56 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:156
+[06-Nov-2018 18:45:56 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[06-Nov-2018 18:45:56 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[06-Nov-2018 18:45:56 UTC] PHP   6. wp_admin_headers() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[06-Nov-2018 18:45:56 UTC] PHP   7. header() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/misc.php:1126
+[06-Nov-2018 18:45:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 919
+[06-Nov-2018 18:45:56 UTC] PHP Stack trace:
+[06-Nov-2018 18:45:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:45:56 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:45:56 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:45:56 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:919
+[06-Nov-2018 18:45:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:191) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php on line 920
+[06-Nov-2018 18:45:56 UTC] PHP Stack trace:
+[06-Nov-2018 18:45:56 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:45:56 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:454
+[06-Nov-2018 18:45:56 UTC] PHP   3. wp_user_settings() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin-header.php:63
+[06-Nov-2018 18:45:56 UTC] PHP   4. setcookie() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/option.php:920
+[06-Nov-2018 18:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http://wcdfw.test/wp-content/pluginspods-loader.php() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:194
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#5 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 194
+[06-Nov-2018 18:47:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http://wcdfw.test/wp-content/plugins/pods-loader.php() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:194
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#5 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 194
+[06-Nov-2018 18:49:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function deactivate_plugins() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:194
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#5 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 194
+[06-Nov-2018 18:52:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/includes/general.php:302
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/classes/PodsView.php(195): pods_is_admin()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/includes/general.php(1568): PodsView::get('pods_wp__pod_ta...', 'transient', '', NULL)
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/includes/general.php(1677): pods_view_get('pods_wp__pod_ta...', 'transient', '', NULL)
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/classes/PodsAPI.php(6046): pods_transient_get('pods_wp__pod_ta...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/classes/PodsAPI.php(122): PodsAPI->load_pod(Object(stdClass), false)
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/classes/PodsAPI.php(89): PodsAPI->__construct('ingredient', NULL)
+#6 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/includes/classe in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods/includes/general.php on line 302
+[06-Nov-2018 18:53:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pods() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:171
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php(193): PodsImporter->AddProduce(Array)
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#6 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 171
+[06-Nov-2018 18:56:19 UTC] PHP Warning:  include_once(/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php): failed to open stream: No such file or directory in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 29
+[06-Nov-2018 18:56:19 UTC] PHP Stack trace:
+[06-Nov-2018 18:56:19 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:56:19 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:56:19 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:31
+[06-Nov-2018 18:56:19 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[06-Nov-2018 18:56:19 UTC] PHP   5. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[06-Nov-2018 18:56:19 UTC] PHP   6. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[06-Nov-2018 18:56:19 UTC] PHP Warning:  include_once(): Failed opening '/Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/class-wp-upgrade.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.1.12/lib/php') in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 29
+[06-Nov-2018 18:56:19 UTC] PHP Stack trace:
+[06-Nov-2018 18:56:19 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[06-Nov-2018 18:56:19 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[06-Nov-2018 18:56:19 UTC] PHP   3. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:31
+[06-Nov-2018 18:56:19 UTC] PHP   4. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php:37
+[06-Nov-2018 18:56:19 UTC] PHP   5. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php:100
+[06-Nov-2018 18:56:19 UTC] PHP   6. include_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php:305
+[06-Nov-2018 18:56:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pods() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:173
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php(195): PodsImporter->AddProduce(Array)
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#6 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[06-Nov-2018 18:57:12 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 62
+[06-Nov-2018 18:57:31 UTC] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 62
+[06-Nov-2018 18:57:58 UTC] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 63
+[06-Nov-2018 18:58:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pods() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:173
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php(195): PodsImporter->AddProduce(Array)
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#5 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#6 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 173
+[06-Nov-2018 21:02:59 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 64
+[06-Nov-2018 21:09:20 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 64
+[06-Nov-2018 21:09:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function deactivate_plugins() in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php:217
+Stack trace:
+#0 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-settings.php(305): include_once()
+#1 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-config.php(100): require_once('/Users/Shared/D...')
+#2 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-load.php(37): require_once('/Users/Shared/D...')
+#3 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php(31): require_once('/Users/Shared/D...')
+#4 /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php(10): require_once('/Users/Shared/D...')
+#5 {main}
+  thrown in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 217
+[06-Nov-2018 22:45:48 UTC] PHP Parse error:  syntax error, unexpected 'spl_autoload_register' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 61
+[06-Nov-2018 22:46:48 UTC] PHP Parse error:  syntax error, unexpected 'spl_autoload_register' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 61
+[06-Nov-2018 22:48:47 UTC] PHP Parse error:  syntax error, unexpected '$faker' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 79
+[06-Nov-2018 22:50:42 UTC] PHP Parse error:  syntax error, unexpected '$faker' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 79
+[06-Nov-2018 22:51:42 UTC] PHP Parse error:  syntax error, unexpected '$faker' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 79
+[06-Nov-2018 22:53:42 UTC] PHP Parse error:  syntax error, unexpected '$faker' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 79
+[06-Nov-2018 22:55:42 UTC] PHP Parse error:  syntax error, unexpected '$faker' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 79
+[06-Nov-2018 22:57:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 274
+[06-Nov-2018 22:59:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 267
+[06-Nov-2018 23:00:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 267
+[06-Nov-2018 23:07:26 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/plugins/pods-loader.php on line 153
+[07-Nov-2018 01:59:09 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 01:59:09 UTC] PHP Stack trace:
+[07-Nov-2018 01:59:09 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 01:59:09 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 01:59:09 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 01:59:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 01:59:09 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 01:59:09 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 01:59:09 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 01:59:09 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 01:59:09 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 01:59:09 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 01:59:09 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 01:59:09 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 01:59:09 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[07-Nov-2018 02:01:17 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 02:01:17 UTC] PHP Stack trace:
+[07-Nov-2018 02:01:17 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 02:01:17 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 02:01:17 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 02:01:17 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 02:01:17 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 02:01:17 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 02:01:17 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 02:01:17 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 02:01:17 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 02:01:17 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 02:01:17 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 02:01:17 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 02:01:17 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[07-Nov-2018 04:58:01 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 04:58:01 UTC] PHP Stack trace:
+[07-Nov-2018 04:58:01 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 04:58:01 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 04:58:01 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 04:58:01 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 04:58:01 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 04:58:01 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 04:58:01 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 04:58:01 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 04:58:01 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 04:58:01 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 04:58:01 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 04:58:01 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 04:58:01 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[07-Nov-2018 05:00:42 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 05:00:42 UTC] PHP Stack trace:
+[07-Nov-2018 05:00:42 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 05:00:42 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 05:00:42 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 05:00:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 05:00:42 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 05:00:42 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 05:00:42 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 05:00:42 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 05:00:42 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 05:00:42 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 05:00:42 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 05:00:42 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 05:00:42 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[07-Nov-2018 05:20:16 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 05:20:16 UTC] PHP Stack trace:
+[07-Nov-2018 05:20:16 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 05:20:16 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 05:20:16 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 05:20:16 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 05:20:16 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 05:20:16 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 05:20:16 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 05:20:16 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 05:20:16 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 05:20:16 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 05:20:16 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 05:20:16 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 05:20:16 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[07-Nov-2018 08:02:00 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[07-Nov-2018 08:02:00 UTC] PHP Stack trace:
+[07-Nov-2018 08:02:00 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[07-Nov-2018 08:02:00 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[07-Nov-2018 08:02:00 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[07-Nov-2018 08:02:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[07-Nov-2018 08:02:00 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[07-Nov-2018 08:02:00 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[07-Nov-2018 08:02:00 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[07-Nov-2018 08:02:00 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[07-Nov-2018 08:02:00 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[07-Nov-2018 08:02:00 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[07-Nov-2018 08:02:00 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[07-Nov-2018 08:02:00 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[07-Nov-2018 08:02:00 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:28:57 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:28:57 UTC] PHP Stack trace:
+[08-Nov-2018 06:28:57 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:28:57 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:28:57 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:28:57 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:28:57 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:28:57 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:28:57 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:28:57 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:28:57 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:28:57 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:28:57 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:28:57 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:28:57 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:37:07 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:37:07 UTC] PHP Stack trace:
+[08-Nov-2018 06:37:07 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:37:07 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:37:07 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:37:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:37:07 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:37:07 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:37:07 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:37:07 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:37:08 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:37:08 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:37:08 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:37:08 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:37:08 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:40:35 UTC] WordPress database error Unknown column 's' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( s ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:40:38 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:40:41 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:41:06 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:41:15 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:41:25 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:41:38 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:42:24 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:44:38 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:44:38 UTC] PHP Stack trace:
+[08-Nov-2018 06:44:38 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:44:38 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:44:38 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:44:38 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:44:38 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:44:38 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:44:38 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:44:38 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:44:38 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:44:38 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:44:38 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:44:38 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:44:38 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:44:41 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:45:11 UTC] WordPress database error Unknown column 'slug' in 'where clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( slug="growing-nectarines" ) AND ( `t`.`post_type` = "gardening" ) AND ( `t`.`post_status` IN ( "publish" ) ) )
+                
+                
+                ORDER BY `t`.`menu_order`, `t`.`post_title`, `t`.`post_date`
+                LIMIT 0, 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/agent-focused-pro/front-page.php'), genesis, do_action('genesis_loop'), WP_Hook->do_action, WP_Hook->apply_filters, agentfocused_front_page_widgets, genesis_widget_area, dynamic_sidebar, WP_Widget->display_callback, PodsWidgetList->widget, require('/plugins/pods/ui/front/widgets.php'), pods_shortcode, Pods->find, PodsData->select, pods_query, PodsData::query
+[08-Nov-2018 06:45:24 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:45:24 UTC] PHP Stack trace:
+[08-Nov-2018 06:45:24 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/widgets.php:0
+[08-Nov-2018 06:45:24 UTC] PHP   2. wp_list_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/widgets.php:401
+[08-Nov-2018 06:45:24 UTC] PHP   3. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:48
+[08-Nov-2018 06:45:24 UTC] PHP   4. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:45:24 UTC] PHP   5. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:45:24 UTC] PHP   6. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:45:24 UTC] PHP   7. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:45:24 UTC] PHP   8. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:45:24 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:45:24 UTC] PHP Stack trace:
+[08-Nov-2018 06:45:24 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/widgets.php:0
+[08-Nov-2018 06:45:24 UTC] PHP   2. wp_list_widget_controls() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/widgets.php:421
+[08-Nov-2018 06:45:24 UTC] PHP   3. dynamic_sidebar() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:100
+[08-Nov-2018 06:45:24 UTC] PHP   4. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/widgets.php:743
+[08-Nov-2018 06:45:24 UTC] PHP   5. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:45:24 UTC] PHP   6. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:45:24 UTC] PHP   7. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:45:25 UTC] PHP   8. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:45:25 UTC] PHP   9. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:45:47 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:45:47 UTC] PHP Stack trace:
+[08-Nov-2018 06:45:47 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:45:47 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:45:47 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:45:47 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:45:47 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:45:47 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:45:47 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:45:47 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:45:47 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:45:47 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:45:47 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:45:47 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:45:47 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:48:27 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:48:27 UTC] PHP Stack trace:
+[08-Nov-2018 06:48:27 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:48:27 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:48:27 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:48:27 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:48:27 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:48:27 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:48:27 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:48:27 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:48:27 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:48:27 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:48:27 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:48:27 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:48:27 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:57:02 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:57:02 UTC] PHP Stack trace:
+[08-Nov-2018 06:57:02 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:57:02 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:57:02 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:57:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:57:02 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:57:03 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:57:03 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:57:03 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:57:03 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:57:03 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:57:04 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:57:04 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:57:04 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 06:59:43 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 06:59:43 UTC] PHP Stack trace:
+[08-Nov-2018 06:59:43 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 06:59:43 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 06:59:43 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 06:59:43 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 06:59:43 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 06:59:43 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 06:59:43 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 06:59:43 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 06:59:43 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 06:59:43 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 06:59:43 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 06:59:43 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 06:59:43 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:00:24 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:00:24 UTC] PHP Stack trace:
+[08-Nov-2018 07:00:24 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:00:24 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:00:24 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:00:24 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:00:24 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:00:24 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:00:24 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:00:24 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:00:24 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:00:24 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:00:24 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:00:24 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:00:24 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:01:05 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:01:05 UTC] PHP Stack trace:
+[08-Nov-2018 07:01:05 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:01:05 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:01:05 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:01:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:01:05 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:01:05 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:01:05 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:01:05 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:01:05 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:01:05 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:01:05 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:01:05 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:01:05 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:01:29 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:01:29 UTC] PHP Stack trace:
+[08-Nov-2018 07:01:29 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:01:29 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:01:29 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:01:29 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:01:29 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:01:29 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:01:29 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:01:29 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:01:29 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:01:29 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:01:29 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:01:29 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:01:29 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:03:28 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:03:28 UTC] PHP Stack trace:
+[08-Nov-2018 07:03:28 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:03:28 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:03:28 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:03:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:03:28 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:03:28 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:03:28 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:03:28 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:03:28 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:03:28 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:03:28 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:03:28 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:03:28 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:04:41 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:04:41 UTC] PHP Stack trace:
+[08-Nov-2018 07:04:41 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:04:41 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:04:41 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:04:41 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:04:41 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:04:41 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:04:41 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:04:41 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:04:41 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:04:41 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:04:41 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:04:41 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:04:41 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[08-Nov-2018 07:05:40 UTC] PHP Notice:  genesis_get_additional_image_sizes is <strong>deprecated</strong> since version 2.5.0! Use wp_get_additional_image_sizes instead. in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php on line 3853
+[08-Nov-2018 07:05:40 UTC] PHP Stack trace:
+[08-Nov-2018 07:05:40 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:0
+[08-Nov-2018 07:05:40 UTC] PHP   2. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/customize.php:123
+[08-Nov-2018 07:05:40 UTC] PHP   3. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[08-Nov-2018 07:05:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[08-Nov-2018 07:05:40 UTC] PHP   5. WP_Customize_Widgets->enqueue_scripts() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[08-Nov-2018 07:05:40 UTC] PHP   6. WP_Customize_Widgets->get_available_widgets() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:676
+[08-Nov-2018 07:05:40 UTC] PHP   7. WP_Customize_Widgets->get_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:968
+[08-Nov-2018 07:05:40 UTC] PHP   8. wp_widget_control() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-customize-widgets.php:1017
+[08-Nov-2018 07:05:40 UTC] PHP   9. WP_Widget->form_callback() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/includes/widgets.php:243
+[08-Nov-2018 07:05:40 UTC] PHP  10. Agent_Focused_Pro_Featured_Community->form() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-widget.php:507
+[08-Nov-2018 07:05:40 UTC] PHP  11. genesis_get_additional_image_sizes() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/agent-focused-pro/lib/widgets/featured-community-widget.php:237
+[08-Nov-2018 07:05:40 UTC] PHP  12. _deprecated_function() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-content/themes/genesis/lib/functions/deprecated.php:66
+[08-Nov-2018 07:05:40 UTC] PHP  13. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/functions.php:3853
+[09-Nov-2018 03:05:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/update.php on line 347
+[09-Nov-2018 03:05:13 UTC] PHP Stack trace:
+[09-Nov-2018 03:05:13 UTC] PHP   1. {main}() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:0
+[09-Nov-2018 03:05:13 UTC] PHP   2. require_once() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/plugins.php:10
+[09-Nov-2018 03:05:13 UTC] PHP   3. do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-admin/admin.php:332
+[09-Nov-2018 03:05:13 UTC] PHP   4. WP_Hook->do_action() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/plugin.php:453
+[09-Nov-2018 03:05:13 UTC] PHP   5. WP_Hook->apply_filters() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:310
+[09-Nov-2018 03:05:13 UTC] PHP   6. wp_update_plugins() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/class-wp-hook.php:286
+[09-Nov-2018 03:05:13 UTC] PHP   7. trigger_error() /Users/Shared/Dev/www/wcdfw/wcdfw/wp-includes/update.php:347

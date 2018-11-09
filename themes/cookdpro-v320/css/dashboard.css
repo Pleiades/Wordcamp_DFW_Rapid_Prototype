@@ -1,0 +1,236 @@
+@font-face {
+	font-family: "feast-social";
+	src: url("../font/feast-social.eot?42751832");
+	src: url("../font/feast-social.eot?42751832#iefix") format("embedded-opentype"),
+		url("../font/feast-social.woff2?42751832") format("woff2"),
+		url("../font/feast-social.woff?42751832") format("woff"),
+		url("../font/feast-social.ttf?42751832") format("truetype"),
+		url("../font/feast-social.svg?42751832#feast-social") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.theme-dashboard * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.theme-dashboard {
+	margin: 20px 20px 0 2px;
+	overflow: hidden;
+}
+
+.theme-dashboard h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+/* Content Area
+----------------------------------------------------------------------------- */
+.theme-dashboard .dashboard-content {
+	display: block;
+	overflow: hidden;
+	max-width: 650px;
+	font-size: 16px;
+}
+
+@media only screen and (min-width:880px) {
+	.theme-dashboard .dashboard-content {
+		float: left;
+		margin-right: 5.2631578947%;
+		width: 64.9122807018%;
+	}
+}
+
+.theme-dashboard .dashboard-content p {
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.theme-dashboard .dashboard-content a {
+	text-decoration: none;
+}
+
+.theme-dashboard .dashboard-main ul {
+	margin: 1em 0;
+	padding-left: 20px;
+	padding-top: 10px;
+	list-style-type: disc;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.theme-dashboard .dashboard-main ul li {
+	margin-bottom: 15px;
+}
+
+.theme-dashboard .dashboard-main h3 {
+	margin-top: 0;
+}
+
+/* About Section
+--------------------------------------------- */
+.theme-dashboard .dashboard-about {
+    border-top: 1px solid #dadada;
+    padding-top: 10px;
+    margin-top: 35px;
+}
+
+.theme-dashboard .dashboard-about h2 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+/* Social Icons
+--------------------------------------------- */
+.theme-dashboard .feast-social {
+	list-style: none;
+	margin-top: 30px;
+	padding: 0;
+}
+
+.theme-dashboard .feast-social li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.theme-dashboard .feast-social li a {
+	background: #000;
+	border-radius: 100%;
+	color: #fff;
+	display: block;
+	padding: 8px;
+}
+
+.theme-dashboard .feast-social li a:hover,
+.theme-dashboard .feast-social li a:focus {
+	background: #323232;
+}
+
+.theme-dashboard .feast-social-icon {
+	font-family: "feast-social";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.theme-dashboard .feast-social-facebook:before {
+	content: "\f300";
+}
+
+.theme-dashboard .feast-social-twitter:before {
+	content: "\f303";
+}
+
+.theme-dashboard .feast-social-instagram:before {
+	content: "\f31f";
+}
+
+/* Sidebar Area
+----------------------------------------------------------------------------- */
+.theme-dashboard .dashboard-sidebar {
+	display: block;
+}
+
+@media only screen and (min-width:880px) {
+	.theme-dashboard .dashboard-sidebar {
+		float: right;
+		width: 29.8245614035%;
+	}
+}
+
+/* Form Section
+--------------------------------------------- */
+.dashboard-sidebar .ck_form,
+.dashboard-sidebar .ck_form.ck_vertical {
+	background: transparent;
+	border: 1px solid #dadada;
+}
+
+.dashboard-sidebar .ck_form_content h3 {
+	font-weight: normal;
+}
+
+.dashboard-sidebar .ck_vertical .ck_form_content,
+.dashboard-sidebar .ck_vertical .ck_form_fields {
+	border: 0;
+	padding: 20px;
+}
+
+.dashboard-sidebar .ck_vertical .ck_form_content {
+	padding-bottom: 0;
+}
+
+.dashboard-sidebar .ck_vertical .ck_form_fields {
+	padding-top: 0;
+}
+
+.dashboard-sidebar .ck_form .ck_subscribe_button {
+	background: #0085ba;
+	border-color: #0073aa #006799 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	height: auto;
+	letter-spacing: normal;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	width: 100%;
+}
+
+.dashboard-sidebar .ck_form .ck_subscribe_button.hover,
+.dashboard-sidebar .ck_form .ck_subscribe_button:hover,
+.dashboard-sidebar .ck_form .ck_subscribe_button.focus,
+.dashboard-sidebar .ck_form .ck_subscribe_button:focus {
+	background: #008ec2;
+	border-color: #006799;
+	color: #fff;
+}
+
+.dashboard-sidebar .ck_form .ck_subscribe_button.focus,
+.dashboard-sidebar .ck_form .ck_subscribe_button:focus {
+	box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;
+}
+
+.dashboard-sidebar .ck_form .ck_subscribe_button.active,
+.dashboard-sidebar .ck_form .ck_subscribe_button.active:hover,
+.dashboard-sidebar .ck_form .ck_subscribe_button.active:focus,
+.dashboard-sidebar .ck_form .ck_subscribe_button:active {
+	background: #0073aa;
+	border-color: #006799;
+	box-shadow: inset 0 2px 0 #006799;
+	vertical-align: top;
+}
+
+.dashboard-sidebar .ck_form .ck_subscribe_button:disabled,
+.dashboard-sidebar .ck_form .ck_subscribe_button-disabled,
+.dashboard-sidebar .ck_form .ck_subscribe_button.disabled {
+	color: #66c6e4 !important;
+	background: #008ec2 !important;
+	border-color: #007cb2 !important;
+	box-shadow: none !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+	cursor: default;
+}
+
+
+/* Dashboard checklist 
+--------------------------------------------- */
+ #dashboard-checklist{display:none;}

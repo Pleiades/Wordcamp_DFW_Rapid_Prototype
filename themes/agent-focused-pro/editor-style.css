@@ -1,0 +1,173 @@
+/* Custom Visual Editor Stylesheet for Agent Focused Pro 
+----------------------------------------------------------------------- */
+
+.content {
+    color: #111;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;
+    margin: 20px 10px;
+}
+
+.content a {
+    color: #67ddab;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 10px;
+}
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a,
+.content h6 a {
+    color: #111;
+    text-decoration: none;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+.content h4 {
+    font-size: 24px;
+}
+
+.content h5 {
+    font-size: 20px;
+}
+
+.content h6 {
+    font-size: 16px;
+}
+
+.content p {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.content .clear {
+    clear: both;
+    margin: 0;
+}
+
+.content ol,
+.content ul {
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.content ul ul, .content ul ol,
+.content ol ol, .content ol ul,
+.content .wp-caption-text p {
+    margin-bottom: 0;
+}
+
+.content .wp-caption-text {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.content img.alignleft {
+    margin: 0 24px 24px 0;
+}
+
+.content img.alignright {
+    margin: 0 0 24px 24px;
+}
+
+hr {
+    clear: both;
+    display: block;
+}
+
+.content blockquote {
+	margin: 40px;
+}
+
+.content blockquote::before {
+    content: '\201C';
+    display: block;
+    font-size: 30px;
+    height: 0;
+    position: relative;
+    top: -10px;
+    left: -20px;
+}
+
+.content blockquote cite,
+.content cite {
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.content tbody {
+    border-bottom: 1px solid #eee;
+}
+
+.content th,
+.content td {
+    text-align: left;
+}
+
+.content th {
+    font-weight: 600;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+}
+
+.content td {
+    border-top: 1px solid #eee;
+    padding: 6px 0;
+}
+
+.content button,
+.content .button {
+    background-color: #67ddab;
+    border: 4px solid #67ddab;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    padding: 18px 24px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.content a.button {
+    text-decoration: none;
+}
+
+

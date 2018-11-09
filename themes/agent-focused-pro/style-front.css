@@ -1,0 +1,700 @@
+/* Agent Focused Pro Front Page Styles */
+
+/* Front Page Table of Contents
+- Front Page General
+- Titles
+- Site Header
+- Flexible Widgets
+- Front Page 1
+- Front Page Search Bar
+- Front Page 2
+- Front Page 3
+- Front Page 4
+- Front Page 5
+- Front Page 6
+- Media Queries
+    - Max-width 1380px
+    - Max-width 1200px
+    - Max-width 980px
+    - Max-width 800px
+    - Max-width 680px
+    - Min-width 1800px
+*/
+
+/* Front Page General
+--------------------------------------------- */
+
+.front-page-1:before,
+.front-page-2:before,
+.front-page-3:before,
+.front-page-4:before,
+.front-page-5:before,
+.front-page-6:before {
+    content: " ";
+    display: table;
+}
+
+.front-page-1:after,
+.front-page-2:after,
+.front-page-3:after,
+.front-page-4:after,
+.front-page-5:after,
+.front-page-6:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.front-page .site-inner {
+    padding: 0;
+    max-width: 100%;
+}
+
+.front-page .featured-content .entry {
+    padding: 0;
+}
+
+.front-page p:last-child {
+    margin-bottom: 0;
+}
+
+/* Titles
+--------------------------------------------- */
+
+.front-page-3 .featured-listings .widget-title,
+.front-page-5 .featured-content .widget-title,
+.flexible-widgets.widget-full .widget-title {
+    font-size: 60px;
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: none;
+}
+
+.front-page-3 .featured-listings .widget-title {
+    color: #fff;
+}
+
+.flexible-widgets.widget-full .widget-title {
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: left;
+}
+
+/* Site Header
+--------------------------------------------- */
+
+.front-page .site-header {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Flexible Widgets
+--------------------------------------------- */
+
+.flexible-widgets .widget {
+    float: left;
+    margin-bottom: 0;
+    padding: 0 30px;
+}
+
+.flexible-widgets .widget:first-child {
+    margin-bottom: 40px;
+}
+
+.flexible-widgets.widget-full .widget:last-child {
+    margin-bottom: 0;
+}
+
+.flexible-widgets.widget-full .widget,
+.flexible-widgets.widget-area .widget:nth-of-type(1),
+.flexible-widgets.widget-halves.uneven .widget:last-of-type {
+    width: 100%;
+}
+
+.flexible-widgets.widget-fourths .widget {
+    width: 25%;
+}
+
+.flexible-widgets.widget-halves .widget {
+    width: 50%;
+}
+
+.flexible-widgets.widget-thirds .widget {
+    width: 33.333333333333%;
+}
+
+.flexible-widgets.widget-halves .widget:nth-child(even),
+.flexible-widgets.widget-thirds .widget:nth-child(3n+2),
+.flexible-widgets.widget-fourths .widget:nth-child(4n+2) {
+    clear: left;
+}
+
+/* Front Page 1 
+--------------------------------------------- */
+
+.front-page-1 {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.front-page-1 .wrap {
+    padding: 120px 0 180px;
+}
+
+.front-page-1,
+.front-page-1 a:hover,
+.front-page-1 a:focus,
+.front-page-1 .entry-title,
+.front-page-1 .entry-title a {
+    color: #fff;
+}
+
+.front-page-1 .entry-title a:hover,
+.front-page-1 .entry-title a:focus,
+.front-page-1 .widget-title a:hover,
+.front-page-1 .widget-title a:focus  {
+    text-decoration: underline;
+}
+
+.front-page-1 .textwidget h2 {
+    font-size: 80px;
+    font-size: 8rem;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.front-page-1 .user-profile {
+    text-align: center;
+}
+
+.front-page-1 .user-profile p {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Front Page Search Bar
+--------------------------------------------- */
+
+.search-bar,
+.search-bar .wrap {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.search-bar {
+    margin-top: -60px;
+    position: relative;
+}
+
+.search-bar form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    text-align: center;
+}
+
+.search-bar input,
+.search-bar select,
+.search-bar textarea {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0 5px 5px 0;
+    width: auto;
+}
+
+.search-bar input[type="submit"],
+.search-bar .property-search input[type="submit"] {
+    margin: 0 5px 5px 0;
+    padding: 18px;
+}
+
+/* Front Page 2
+--------------------------------------------- */
+
+.front-page-2 .wrap {
+    padding: 50px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.front-page-2-left {
+    border-right: 2px solid #eee;
+    width: 66.666666666666%;
+}
+
+.front-page-2-right {
+    padding-left: 30px;
+    width: 33%; /* intentional for Safari */
+}
+
+.front-page-2-left,
+.front-page-2-right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.front-page-2 .widget {
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+.front-page-2-left .widget:last-child,
+.front-page-2-right .widget:last-child {
+    margin-bottom: 0;
+}
+
+.front-page-2-left .textwidget {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.front-page-2 .contact {
+    margin-left: 36px;
+}
+
+.front-page-2 .contact a {
+    color: #111;
+}
+
+.front-page-2 .contact a:hover,
+.front-page-2 .contact a:focus {
+    text-decoration: underline;
+}
+
+/* http://ionicons.com/ */
+.front-page-2 .contact .icon {
+    margin-left: -36px;
+    width: 36px;
+}
+
+/* Front Page 3
+--------------------------------------------- */
+
+.front-page-3 {
+    position: relative;
+    z-index: 1;
+}
+
+.front-page-3::before {
+    content: "";
+    display: block;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.front-page-3 .wrap {
+    margin: 0 auto;
+    max-width: 1380px;
+}
+
+.front-page-3 .featured-listings .entry {
+    display: inline-block;
+    margin: 0 0 40px 0;
+    padding: 0;
+    vertical-align: top;
+    width: 33.333333333333%;
+}
+
+.front-page-3 .featured-listings span {
+    display: inline-block;
+}
+
+.front-page-3 .featured-listings span.listing-price,
+.front-page-3 .featured-listings a.more-link {
+    display: block;
+}
+
+.front-page-3 .featured-listings .listing-price {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.front-page-3 .featured-listings span.listing-address:after {
+    content: ",";
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* Front Page 4
+--------------------------------------------- */
+
+.front-page-4 .wrap {
+    padding: 50px 0;
+}
+
+.front-page-4 a.viewall {
+    float: right;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.front-page-4 a:hover.viewall,
+.front-page-4 a:focus.viewall {
+    text-decoration: underline;
+}
+
+/* Front Page 5
+--------------------------------------------- */
+
+.front-page-5 .wrap {
+    max-width: 100%;
+}
+
+.front-page-5 .featured-content .entry-title {
+    display: inline-block;
+    font-size: 36px;
+    font-size: 3.6rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 60px 0;
+    margin: 15% 0 60px;
+    position: relative;
+    text-transform: none;
+}
+
+.front-page-5 .featured-content .entry-title:after {
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    top: 30px;
+    width: 90px;
+}
+
+.front-page-5 .featured-content .entry,
+.front-page-5 .featured-content.featuredpage .entry {
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.front-page-5 .featured-content .entry > a,
+.front-page-5 .featured-content.featuredpage .entry > a {
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+.front-page-5 .featured-content .entry:nth-of-type(2n+2) > a,
+.front-page-5 .featured-content.featuredpage:nth-of-type(2n+2) .entry > a {
+    float: right;
+}
+
+.front-page-5 .featured-content .entry > a img,
+.front-page-5 .featured-content.featuredpage .entry > a img {
+    display: block;
+    height: 440px;
+    width: auto;
+    max-width: none;
+}
+
+.objectfit .front-page-5 .featured-content .entry > a img,
+.objectfit .front-page-5 .featured-content.featuredpage .entry > a img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+}
+
+.front-page-5 .featured-content .entry .entry-header,
+.front-page-5 .featured-content .entry .entry-content,
+.front-page-5 .featured-content.featuredpage .entry .entry-header,
+.front-page-5 .featured-content.featuredpage .entry .entry-content {
+    display: block;
+    float: left;
+    padding-left: 6%;
+    padding-right: 30px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.front-page-5 .featured-content .entry:nth-of-type(2n+2) .entry-header,
+.front-page-5 .featured-content .entry:nth-of-type(2n+2) .entry-content,
+.front-page-5 .featured-content.featuredpage:nth-of-type(2n+2) .entry .entry-header,
+.front-page-5 .featured-content.featuredpage:nth-of-type(2n+2) .entry .entry-content {
+    float: right;
+    padding-right: 6%;
+    padding-left: 30px;
+}
+
+.front-page-5 .featured-content ul {
+    text-align: center;
+}
+
+/* Front Page 6
+--------------------------------------------- */
+
+.front-page-6,
+.front-page-6 a {
+    color: #fff;
+}
+
+.front-page-6 a:hover,
+.front-page-6 a:focus {
+    color: #111;
+}
+
+.front-page-6 .wrap {
+    padding: 60px 0;
+}
+
+.front-page-6 img.testimonial {
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 40px 12px 0;
+    max-width: 100px;
+}
+
+.front-page-6 a.button {
+    background-color: transparent;
+    border: 4px solid #fff;
+    margin: 0;
+}
+
+.front-page-6 a.button:hover,
+.front-page-6 a.button:focus {
+    border: 4px solid #666;
+    color: #666;
+}
+
+/* Media Queries
+--------------------------------------------- */
+
+/* Max-width 1380px
+---------------------------------- */
+
+@media only screen and (max-width:1380px) {
+
+    .front-page-3 .featured-listings .entry {
+        text-align: center;
+    }
+
+}
+
+/* Max-width 1200px
+---------------------------------- */
+
+@media only screen and (max-width:1200px) {
+    
+    .front-page-1 .textwidget h2 {
+        font-size: 60px;
+        font-size: 6rem;
+    }
+
+    .front-page-2-left .textwidget {
+        font-size: 22px;
+        font-size: 2.2rem;
+    }
+
+    .front-page-2-right {
+        padding-left: 0;
+    }
+
+    .front-page-3 .wrap,
+    .front-page-5 .wrap {
+        max-width: 1200px;
+    }
+
+}
+
+/* Max-width 980px
+---------------------------------- */
+
+@media only screen and (max-width:980px) {
+    
+    .js.front-page nav.nav-primary {
+        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .js .menu-toggle:focus,
+    .js .menu-toggle.activated {
+        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .front-page-5 .featured-content .entry-title:after {
+        top: 15px;
+    }
+
+    .front-page-1 .wrap {
+        padding: 60px 0;
+    }
+
+    .search-bar {
+        margin-top: 0;
+    }
+
+    .front-page-2-left .textwidget {
+        font-size: 20px;
+        font-size: 2rem;
+    }
+
+    .front-page .footer-widgets {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .front-page .footer-widgets .widget {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Max-width 800px
+---------------------------------- */
+
+@media only screen and (max-width:800px) {
+    
+    .flexible-widgets.widget-fourths .widget,
+    .flexible-widgets.widget-halves .widget,
+    .flexible-widgets.widget-thirds .widget {
+        float: none;
+        width: 100%;
+    }
+
+    .front-page-1 .textwidget h2 {
+        font-size: 48px;
+        font-size: 4.8rem;
+    }
+
+    .front-page-2-left,
+    .front-page-2-right {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .front-page-2-left {
+        border-right: none;
+        margin-bottom: 40px;
+    }
+
+    .front-page-3 .featured-listings .widget-title,
+    .front-page-5 .featured-content .widget-title,
+    .flexible-widgets.widget-full .widget-title {
+        font-size: 48px;
+        font-size: 4.8rem;
+    }
+
+    .front-page-3 .featured-listings .entry {
+        width: 100%;
+    }
+
+    .front-page-4 a.viewall {
+        float: left;
+        margin: 10px 0 0;
+    }
+
+    .front-page-5 .featured-content .entry,
+    .front-page-5 .featured-content.featuredpage .entry {
+        margin-bottom: 40px;
+    }
+
+    .front-page-5 .featured-content .entry > a,
+    .front-page-5 .featured-content.featuredpage .entry > a {
+        width: 100%;
+    }
+
+    .front-page-5 .featured-content .entry > a img,
+    .front-page-5 .featured-content.featuredpage .entry > a img {
+        height: 340px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .front-page-5 .featured-content .entry .entry-header,
+    .front-page-5 .featured-content .entry .entry-content,
+    .front-page-5 .featured-content.featuredpage .entry .entry-header,
+    .front-page-5 .featured-content.featuredpage .entry .entry-content,
+    .front-page-5 .featured-content .entry:nth-of-type(2n+2) .entry-header,
+    .front-page-5 .featured-content .entry:nth-of-type(2n+2) .entry-content,
+    .front-page-5 .featured-content.featuredpage:nth-of-type(2n+2) .entry .entry-header,
+    .front-page-5 .featured-content.featuredpage:nth-of-type(2n+2) .entry .entry-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .front-page-6 a.alignright.button {
+        float: left;
+        margin: 20px 0 0;
+    }
+
+}
+
+/* Max-width 680px
+---------------------------------- */
+
+@media only screen and (max-width:680px) {
+    
+    .search-bar input,
+    .search-bar select,
+    .search-bar textarea {
+        width: 100%;
+    }
+
+    .front-page-3 .featured-listings .widget-title,
+    .front-page-5 .featured-content .widget-title,
+    .flexible-widgets.widget-full .widget-title {
+        font-size: 32px;
+        font-size: 3.2rem;
+    }
+
+}
+
+/* Min-width 1800px
+---------------------------------- */
+
+@media only screen and (min-width:1800px) {
+    
+    .front-page-5 .featured-content .entry > a img,
+    .front-page-5 .featured-content.featuredpage .entry > a img {
+        height: 560px;
+    }
+
+    .front-page-5 .featured-content .entry-title {
+        margin: 120px 0 60px;
+        margin: 30% 0 60px;
+    }
+
+}

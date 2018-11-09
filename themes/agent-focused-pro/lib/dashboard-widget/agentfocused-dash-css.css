@@ -1,0 +1,15 @@
+	/* CSS for Agent Focused Pro Dashboard Widget
+	------------------------------------------------ */
+
+	#agentfocused_support_widget {
+		text-align: center;
+	}
+	#agentfocused_support_widget .logo {
+		background-color: #000;
+	}
+	#agentfocused_support_widget img.aligncenter {
+		display: inline-block;
+	}
+	#agentfocused_support_widget p {
+		font-size: 16px;
+	}

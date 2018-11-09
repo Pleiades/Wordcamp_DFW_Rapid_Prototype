@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Agent Focused Pro\n"
+"POT-Creation-Date: 2016-04-29 15:11-0700\n"
+"PO-Revision-Date: 2016-04-29 15:14-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:19
+msgid "Agent Focused Pro"
+msgstr ""
+
+#: functions.php:38 functions.php:39
+msgid "Menu"
+msgstr ""
+
+#: functions.php:88
+msgid "Header Navigation Menu"
+msgstr ""
+
+#: functions.php:89
+msgid "Footer Navigation Menu"
+msgstr ""
+
+#: functions.php:172
+msgid "about "
+msgstr ""
+
+#: functions.php:174
+msgid "&#187; Learn More"
+msgstr ""
+
+#: functions.php:269
+msgid "Front Page 1"
+msgstr ""
+
+#: functions.php:270
+msgid "This is the front page 1 section."
+msgstr ""
+
+#: functions.php:274
+msgid "Search Bar"
+msgstr ""
+
+#: functions.php:275
+msgid "This is the search bar section."
+msgstr ""
+
+#: functions.php:279
+msgid "Front Page 2 Left"
+msgstr ""
+
+#: functions.php:280
+msgid "This is the front page 2 left section."
+msgstr ""
+
+#: functions.php:284
+msgid "Front Page 2 Right"
+msgstr ""
+
+#: functions.php:285
+msgid "This is the front page 2 right section."
+msgstr ""
+
+#: functions.php:289
+msgid "Front Page 3"
+msgstr ""
+
+#: functions.php:290
+msgid "This is the front page 3 section."
+msgstr ""
+
+#: functions.php:294
+msgid "Front Page 4"
+msgstr ""
+
+#: functions.php:295
+msgid "This is the front page 4 section."
+msgstr ""
+
+#: functions.php:299
+msgid "Front Page 5"
+msgstr ""
+
+#: functions.php:300
+msgid "This is the front page 5 section."
+msgstr ""
+
+#: functions.php:304
+msgid "Front Page 6"
+msgstr ""
+
+#: functions.php:305
+msgid "This is the front page 6 section."
+msgstr ""
+
+#: functions.php:309
+msgid "Footer Bottom"
+msgstr ""
+
+#: functions.php:310
+msgid "This is the footer bottom section."
+msgstr ""
+
+#: lib/community-post-types.php:19
+msgid "Add New Community Type"
+msgstr ""
+
+#: lib/community-post-types.php:20
+msgid "New Community Type"
+msgstr ""
+
+#: lib/community-post-types.php:36
+msgid "Communities"
+msgstr ""
+
+#: lib/community-post-types.php:37
+msgid "Community"
+msgstr ""
+
+#: lib/customize.php:47
+msgid "Front Page Image"
+msgstr ""
+
+#: lib/customize.php:48
+msgid ""
+"Use the default image or personalize your site by uploading your own image "
+"for the front page 1 widget background.<br /><br />The image for the demo is "
+"<strong>1600 x 1000 pixels</strong>."
+msgstr ""
+
+#: lib/customize.php:62
+msgid "Front Image Upload"
+msgstr ""
+
+#: lib/customize.php:82
+msgid ""
+"Change the default accent color for links, buttons, and front page "
+"testimonial."
+msgstr ""
+
+#: lib/customize.php:83
+msgid "Accent Color"
+msgstr ""
+
+#: lib/customize.php:103
+msgid ""
+"Change the default secondary color for header, search bars, featured "
+"listings, and footer-widgets."
+msgstr ""
+
+#: lib/customize.php:104
+msgid "Secondary Color"
+msgstr ""
+
+#: lib/customize.php:124
+msgid "Change the default footer color."
+msgstr ""
+
+#: lib/customize.php:125
+msgid "Footer Color"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:35
+msgid "Agent Focused Pro Theme Support"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:46
+msgid "Welcome to the Agent Focused Pro Theme!"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:46
+msgid "Need help? Here are some helpful links."
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:48
+msgid "Agent Focused Pro Demo"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:49
+msgid "Agent Focused Pro Set Up Instructions"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:50
+msgid "Have questions? We have answers!"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:50
+msgid "Contact Support!"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:52
+msgid "Do you need an IDX service?"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:52
+msgid "Purchase IDX Broker"
+msgstr ""
+
+#: lib/dashboard-widget/agentfocused-dashboard-widget.php:53
+msgid "Purchase Gravity Forms"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:39
+msgid "[Read More...]"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:45
+msgid "Displays featured communities with thumbnails"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:54
+msgid "Featured Communities"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:191
+#: lib/widgets/featured-community-widget.php:209
+msgid "Title"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:196
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:201
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:206
+msgid "Order By"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:208
+msgid "Date"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:210
+msgid "Parent"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:211
+msgid "ID"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:212
+msgid "Comment Count"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:213
+msgid "Random"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:218
+msgid "Sort Order"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:220
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:221
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:229
+msgid "Show Featured Image"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:233
+msgid "Image Size"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:248
+msgid "Show Post Title"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:252
+msgid "Content Type"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:254
+msgid "Show Content"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:255
+msgid "Show Excerpt"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:256
+msgid "Show Content Limit"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:257
+msgid "No Content"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:260
+msgid "Limit content to"
+msgstr ""
+
+#: lib/widgets/featured-community-widget.php:267
+msgid "More Text (if applicable)"
+msgstr ""
