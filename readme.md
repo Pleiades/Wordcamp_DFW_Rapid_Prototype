@@ -8,13 +8,13 @@ Included are samples of:
 - Importing CSV spreadsheets into CPTs
 - Mocking data with online services including: 
 
-[Mockaroo](https://mockaroo.com/)
-[ConvertCSV] (convertcsv.com/generate-test-data.htm)
-[Faker] (https://github.com/fzaninotto/Faker)
-[Loripsum] (https://loripsum.net/)
-[Pixabay] (https://pixabay.com/api/docs/)
-[MediaWiki] (MediaWiki)
-[Pexels] (Pexels)
+- [Mockaroo](https://mockaroo.com/)
+- [ConvertCSV](convertcsv.com/generate-test-data.htm)
+- [Faker](https://github.com/fzaninotto/Faker)
+- [Loripsum](https://loripsum.net/)
+- [Pixabay](https://pixabay.com/api/docs/)
+- [MediaWiki](MediaWiki)
+- [Pexels](Pexels)
 
 The code also includes the creation of a custom WP_CLI command as an example, and the addition of various functions and custom Fakers as part of it. 
 
