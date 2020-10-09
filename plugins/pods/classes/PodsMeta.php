@@ -451,8 +451,8 @@ class PodsMeta {
 	 */
 	public function integrations() {
 
-		// `ac_is_version_gte` is since AC 3.0+
-		if ( ! function_exists( 'ac_is_version_gte' ) ) {
+		// `AC()` is AC 3.0+, && `AC_FILE` is AC 3.2+
+		if ( ! function_exists( 'AC' ) && ! defined( 'AC_FILE' ) ) {
 			// Codepress Admin Columns < 2.x
 			add_filter( 'cac/storage_model/meta_keys', array( $this, 'cpac_meta_keys' ), 10, 2 );
 			add_filter( 'cac/post_types', array( $this, 'cpac_post_types' ), 10, 1 );
@@ -911,6 +911,12 @@ class PodsMeta {
 	 */
 	public function groups_get( $type, $name, $default_fields = null ) {
 
+		static $groups_cache = array();
+
+		if ( isset( $groups_cache[ $type . '/' . $name ] ) ) {
+			return $groups_cache[ $type . '/' . $name ];
+		}
+
 		if ( 'post_type' == $type && 'attachment' == $name ) {
 			$type = 'media';
 			$name = 'media';
@@ -970,7 +976,9 @@ class PodsMeta {
 		}
 
 		if ( $pod['type'] != $type ) {
-			return array();
+			$groups_cache[ $type . '/' . $name ] = array();
+
+			return $groups_cache[ $type . '/' . $name ];
 		}
 
 		$groups = array(
@@ -1009,7 +1017,11 @@ class PodsMeta {
 		 *
 		 * @since 2.6.6
 		 */
-		return apply_filters( 'pods_meta_groups_get', $groups, $type, $name );
+		$groups = apply_filters( 'pods_meta_groups_get', $groups, $type, $name );
+
+		$groups_cache[ $type . '/' . $name ] = $groups;
+
+		return $groups_cache[ $type . '/' . $name ];
 	}
 
 	/**
@@ -3077,49 +3089,31 @@ class PodsMeta {
 
 		foreach ( $meta_keys as $meta_k ) {
 			if ( ! empty( $pod ) ) {
-				if ( isset( $pod->fields[ $meta_k ] ) ) {
+				$first_meta_key = $meta_k;
+				if ( false !== strpos( $first_meta_key, '.' ) ) {
+					// Get the first meta key.
+					$first_meta_key = current( explode( '.', $first_meta_key ) );
+				}
+
+				if ( isset( $pod->fields[ $first_meta_key ] ) ) {
 					$key_found = true;
 
 					$meta_cache[ $meta_k ] = $pod->field( array(
 						'name'     => $meta_k,
 						'single'   => $single,
-						'get_meta' => true
+						'get_meta' => true,
 					) );
 
-					if ( ( ! is_array( $meta_cache[ $meta_k ] ) || ! isset( $meta_cache[ $meta_k ][0] ) ) ) {
-						if ( empty( $meta_cache[ $meta_k ] ) && ! is_array( $meta_cache[ $meta_k ] ) && $single ) {
+					if ( ! is_array( $meta_cache[ $meta_k ] ) || ! isset( $meta_cache[ $meta_k ][0] ) ) {
+						if ( empty( $meta_cache[ $meta_k ] ) ) {
 							$meta_cache[ $meta_k ] = array();
 						} else {
 							$meta_cache[ $meta_k ] = array( $meta_cache[ $meta_k ] );
 						}
 					}
 
-					if ( in_array( $pod->fields[ $meta_k ]['type'], PodsForm::tableless_field_types() ) && isset( $meta_cache[ '_pods_' . $meta_k ] ) ) {
-						unset( $meta_cache[ '_pods_' . $meta_k ] );
-					}
-				} elseif ( false !== strpos( $meta_k, '.' ) ) {
-					$key_found = true;
-
-					$first = current( explode( '.', $meta_k ) );
-
-					if ( isset( $pod->fields[ $first ] ) ) {
-						$meta_cache[ $meta_k ] = $pod->field( array(
-							'name'     => $meta_k,
-							'single'   => $single,
-							'get_meta' => true
-						) );
-
-						if ( ( ! is_array( $meta_cache[ $meta_k ] ) || ! isset( $meta_cache[ $meta_k ][0] ) ) && $single ) {
-							if ( empty( $meta_cache[ $meta_k ] ) && ! is_array( $meta_cache[ $meta_k ] ) && $single ) {
-								$meta_cache[ $meta_k ] = array();
-							} else {
-								$meta_cache[ $meta_k ] = array( $meta_cache[ $meta_k ] );
-							}
-						}
-
-						if ( in_array( $pod->fields[ $first ]['type'], PodsForm::tableless_field_types() ) && isset( $meta_cache[ '_pods_' . $first ] ) ) {
-							unset( $meta_cache[ '_pods_' . $first ] );
-						}
+					if ( in_array( $pod->fields[ $first_meta_key ]['type'], PodsForm::tableless_field_types() ) && isset( $meta_cache[ '_pods_' . $first_meta_key ] ) ) {
+						unset( $meta_cache[ '_pods_' . $first_meta_key ] );
 					}
 				}
 			}

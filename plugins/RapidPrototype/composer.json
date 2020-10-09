@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "jzonta/faker-restaurant": "^1.0"
+    }
+}

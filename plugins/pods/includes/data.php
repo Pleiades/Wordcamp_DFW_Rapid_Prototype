@@ -292,17 +292,64 @@ function pods_trim( $input, $charlist = null, $lr = null ) {
 			$output[ pods_sanitize( $key ) ] = pods_trim( $val, $charlist, $lr );
 		}
 	} else {
-		if ( 'l' === $lr ) {
-			$output = ltrim( $input, $charlist );
-		} elseif ( 'r' === $lr ) {
-			$output = rtrim( $input, $charlist );
-		} else {
-			$output = trim( $input, $charlist );
+		$args = array( $input );
+		if ( null !== $charlist ) {
+			$args[] = $charlist;
 		}
+		if ( 'l' === $lr ) {
+			$function = 'ltrim';
+		} elseif ( 'r' === $lr ) {
+			$function = 'rtrim';
+		} else {
+			$function = 'trim';
+		}
+		$output = call_user_func_array( $function, $args );
 	}//end if
 
 	return $output;
 
+}
+
+/**
+ * Traverse an array or object by array values order or a string (name.name.name).
+ *
+ * @since 2.7.18
+ *
+ * @param array|string|int $traverse The traversal names/keys.
+ * @param array|object     $value    The value to traverse into.
+ *
+ * @return mixed
+ */
+function pods_traverse( $traverse, $value ) {
+	if ( ! $traverse && ! is_numeric( $traverse ) ) {
+		return $value;
+	}
+
+	if ( is_scalar( $value ) ) {
+		return null;
+	}
+
+	if ( is_object( $value ) ) {
+		$value = (array) $value;
+	}
+
+	if ( ! is_array( $traverse ) ) {
+		$traverse = explode( '.', $traverse );
+	}
+
+	$key = array_shift( $traverse );
+
+	if ( ! isset( $value[ $key ] ) ) {
+		return null;
+	}
+
+	$value = $value[ $key ];
+
+	if ( $traverse ) {
+		$value = pods_traverse( $traverse, $value );
+	}
+
+	return $value;
 }
 
 /**
@@ -357,6 +404,9 @@ function pods_v( $var = null, $type = 'get', $default = null, $strict = false, $
 				if ( isset( $_REQUEST[ $var ] ) ) {
 					$output = pods_unslash( $_REQUEST[ $var ] );
 				}
+				break;
+			case 'query':
+				$output = get_query_var( $var, $default );
 				break;
 			case 'url':
 			case 'uri':
@@ -583,6 +633,11 @@ function pods_v( $var = null, $type = 'get', $default = null, $strict = false, $
 			case 'user':
 				if ( is_user_logged_in() ) {
 					$user = get_userdata( get_current_user_id() );
+
+					// Prevent deprecation notice from WP.
+					if ( 'id' === $var ) {
+						$var = 'ID';
+					}
 
 					if ( isset( $user->{$var} ) ) {
 						$value = $user->{$var};
@@ -1383,13 +1438,14 @@ function pods_absint( $maybeint, $strict = true, $allow_negative = false ) {
 /**
  * Functions like str_replace except it will restrict $occurrences
  *
+ * @since 2.0
+ *
  * @param mixed  $find
  * @param mixed  $replace
  * @param string $string
  * @param int    $occurrences (optional)
  *
  * @return mixed
- * @version 2.0
  */
 function pods_str_replace( $find, $replace, $string, $occurrences = - 1 ) {
 
@@ -1416,8 +1472,12 @@ function pods_str_replace( $find, $replace, $string, $occurrences = - 1 ) {
 	} else {
 		$find = '/' . preg_quote( $find, '/' ) . '/';
 	}
-
-	return preg_replace( $find, $replace, $string, $occurrences );
+	if ( is_string( $string ) ) {
+		return preg_replace( $find, $replace, $string, $occurrences );
+	} else {
+		// Occasionally we will receive non string values (true, false, null).  Allow those to pass through
+		return $string;
+	}
 }
 
 /**
@@ -1462,82 +1522,82 @@ function pods_mb_substr( $string, $start, $length = null, $encoding = null ) {
 }
 
 /**
- * Evaluate tags like magic tags but through pods_v
+ * Evaluate tags like magic tags but through pods_v.
  *
- * @param string|array|object $tags     String to be evaluated
- * @param bool                $sanitize Whether to sanitize tags
+ * @since 2.1
+ *
+ * @param string|array|object $tags     String to be evaluated.
+ * @param bool                $sanitize Whether to sanitize.
+ * @param null|mixed          $fallback The fallback value to use if not set, should already be sanitized.
  *
  * @return string
  *
- * @version 2.1
- *
- * @see     pods_evaluate_tag
+ * @see pods_evaluate_tag
  */
-function pods_evaluate_tags( $tags, $sanitize = false ) {
-
+function pods_evaluate_tags( $tags, $sanitize = false, $fallback = null ) {
 	if ( is_array( $tags ) ) {
 		foreach ( $tags as $k => $tag ) {
 			$tags[ $k ] = pods_evaluate_tags( $tag, $sanitize );
 		}
 
 		return $tags;
-	} elseif ( is_object( $tags ) ) {
+	}
+
+	if ( is_object( $tags ) ) {
 		$tags = get_object_vars( $tags );
 
-		foreach ( $tags as $k => $tag ) {
-			$tags[ $k ] = pods_evaluate_tags( $tag, $sanitize );
-		}
-
-		$tags = (object) $tags;
+		// Evaluate array and cast as object.
+		$tags = (object) pods_evaluate_tags( $tags );
 
 		return $tags;
 	}
 
-	$callback = 'pods_evaluate_tag';
-
-	if ( true === $sanitize ) {
-		$callback = 'pods_evaluate_tag_sanitized';
-	}
-
-	return preg_replace_callback( '/({@(.*?)})/m', $callback, (string) $tags );
-
+	return preg_replace_callback(
+		'/({@(.*?)})/m',
+		function ( $tag ) use ( $sanitize, $fallback ) {
+			return pods_evaluate_tag( $tag, $sanitize, $fallback );
+		},
+		(string) $tags
+	);
 }
 
 /**
- * Evaluate tag like magic tag but mapped through pods_v_sanitized
+ * Evaluate tag like magic tag but mapped through pods_v_sanitized.
  *
- * @param string|array $tag
+ * @since 2.1
  *
- * @return string
+ * @param string|array $tag String to be evaluated.
  *
- * @version 2.1
+ * @return string Evaluated content.
  *
- * @see     pods_evaluate_tag
+ * @see pods_evaluate_tag
  */
 function pods_evaluate_tag_sanitized( $tag ) {
-
 	return pods_evaluate_tag( $tag, true );
-
 }
 
 /**
- * Evaluate tag like magic tag but mapped through pods_v
+ * Evaluate tag like magic tag but mapped through pods_v.
  *
- * @param string|array $tag
- * @param bool         $sanitize Whether to sanitize tags
+ * @since 2.1
  *
- * @return string
+ * @param string|array $tag      String to be evaluated.
+ * @param bool         $sanitize Whether to sanitize tags.
+ * @param null|mixed   $fallback The fallback value to use if not set, should already be sanitized.
  *
- * @version 2.1
+ * @return string Evaluated content.
  */
-function pods_evaluate_tag( $tag, $sanitize = false ) {
-
+function pods_evaluate_tag( $tag, $sanitize = false, $fallback = null ) {
 	global $wpdb;
 
 	// Handle pods_evaluate_tags
 	if ( is_array( $tag ) ) {
-		if ( ! isset( $tag[2] ) && strlen( trim( $tag[2] ) ) < 1 ) {
-			return '';
+		if ( ! isset( $tag[2] ) && '' === trim( $tag[2] ) ) {
+			if ( null === $fallback ) {
+				return '';
+			}
+
+			return $fallback;
 		}
 
 		$tag = $tag[2];
@@ -1546,8 +1606,12 @@ function pods_evaluate_tag( $tag, $sanitize = false ) {
 	$tag = trim( $tag, ' {@}' );
 	$tag = explode( '.', $tag );
 
-	if ( empty( $tag ) || ! isset( $tag[0] ) || strlen( trim( $tag[0] ) ) < 1 ) {
-		return '';
+	if ( empty( $tag ) || ! isset( $tag[0] ) || '' === trim( $tag[0] ) ) {
+		if ( null === $fallback ) {
+			return '';
+		}
+
+		return $fallback;
 	}
 
 	// Fix formatting that may be after the first .
@@ -1584,16 +1648,16 @@ function pods_evaluate_tag( $tag, $sanitize = false ) {
 	);
 
 	if ( in_array( $tag[0], $single_supported, true ) ) {
-		$value = pods_v( '', $tag[0], '', true );
-	} elseif ( 1 == count( $tag ) ) {
-		$value = pods_v( $tag[0], 'get', '', true );
-	} elseif ( 2 == count( $tag ) ) {
-		$value = pods_v( $tag[1], $tag[0], '', true );
+		$value = pods_v( '', $tag[0], null );
+	} elseif ( 1 === count( $tag ) ) {
+		$value = pods_v( $tag[0], 'get', null );
+	} elseif ( 2 === count( $tag ) ) {
+		$value = pods_v( $tag[1], $tag[0], null );
 	}
 
-	$value = apply_filters( 'pods_evaluate_tag', $value, $tag );
+	$value = apply_filters( 'pods_evaluate_tag', $value, $tag, $fallback );
 
-	if ( is_array( $value ) && 1 == count( $value ) ) {
+	if ( is_array( $value ) && 1 === count( $value ) ) {
 		$value = current( $value );
 	}
 
@@ -1601,12 +1665,19 @@ function pods_evaluate_tag( $tag, $sanitize = false ) {
 		$value = pods_serial_comma( $value );
 	}
 
+	if ( null === $value ) {
+		$value = '';
+	}
+
 	if ( $sanitize ) {
 		$value = pods_sanitize( $value );
 	}
 
-	return $value;
+	if ( null !== $fallback && '' === $value ) {
+		$value = $fallback;
+	}
 
+	return $value;
 }
 
 /**
@@ -1633,7 +1704,7 @@ function pods_serial_comma( $value, $field = null, $fields = null, $and = null, 
 		'fields'      => $fields,
 		'and'         => $and,
 		'field_index' => $field_index,
-		'separator'   => ',',
+		'separator'   => null,
 		'serial'      => true,
 	);
 
@@ -1662,7 +1733,19 @@ function pods_serial_comma( $value, $field = null, $fields = null, $and = null, 
 			} elseif ( in_array( $params->field['pick_object'], $simple_tableless_objects, true ) ) {
 				$simple = true;
 			} else {
-				$table = pods_api()->get_table_info( $params->field['pick_object'], $params->field['pick_val'], null, null, $params->field );
+				$pick_object = pods_v( 'pick_object', $params->field );
+				$pick_val    = pods_v( 'pick_val', $params->field );
+				$table       = null;
+
+				if ( ! empty( $pick_object ) && ( ! empty( $pick_val ) || in_array( $pick_object, array( 'user', 'media', 'comment' ), true ) ) ) {
+					$table = pods_api()->get_table_info(
+						$pick_object,
+						$pick_val,
+						null,
+						null,
+						$params->field
+					);
+				}
 
 				if ( ! empty( $table ) ) {
 					if ( null === $params->field_index ) {
@@ -1683,13 +1766,49 @@ function pods_serial_comma( $value, $field = null, $fields = null, $and = null, 
 		return $value;
 	}
 
+	// If something happens with table info, and this is a single select relationship, avoid letting user pass through.
+	if ( isset( $value['user_pass'] ) ) {
+		unset( $value['user_pass'] );
+
+		// Since we know this is a single select, just pass display name through as the fallback.
+		if ( isset( $value['display_name'] ) ) {
+			$value = array( $value['display_name'] );
+		}
+	}
+
+	$original_value = $value;
+
+	if ( in_array( $params->separator, array( '', null ), true ) ) {
+		$params->separator = ', ';
+	}
+
 	if ( null === $params->and ) {
 		$params->and = ' ' . __( 'and', 'pods' ) . ' ';
 	}
 
-	$last = '';
+	/**
+	 * Allow filtering the "and" content used for pods_serial_comma.
+	 *
+	 * @since 2.7.17
+	 *
+	 * @param string|null $and The "and" content used, return null to disable.
+	 * @param string $value    The value input into pods_serial_comma.
+	 * @param object $params   The list of the setup parameters for pods_serial_comma.
+	 */
+	$params->and = apply_filters( 'pods_serial_comma_and', $params->and, $value, $params );
 
-	$original_value = $value;
+	/**
+	 * Allow filtering the "separator" content used for pods_serial_comma.
+	 *
+	 * @since 2.7.17
+	 *
+	 * @param string $separator The "separator" content used (default ", ").
+	 * @param string $value     The value input into pods_serial_comma.
+	 * @param object $params    The list of the setup parameters for pods_serial_comma.
+	 */
+	$params->separator = apply_filters( 'pods_serial_comma_separator', $params->separator, $value, $params );
+
+	$last = '';
 
 	if ( ! empty( $value ) ) {
 		$last = array_pop( $value );
@@ -1729,7 +1848,7 @@ function pods_serial_comma( $value, $field = null, $fields = null, $and = null, 
 				if ( null !== $params->field_index && isset( $v[ $params->field_index ] ) ) {
 					$v = $v[ $params->field_index ];
 				} elseif ( $simple ) {
-					$v = trim( implode( $params->separator . ' ', $v ), $params->separator . ' ' );
+					$v = trim( implode( $params->separator, $v ), $params->separator . ' ' );
 				} else {
 					unset( $value[ $k ] );
 
@@ -1740,10 +1859,27 @@ function pods_serial_comma( $value, $field = null, $fields = null, $and = null, 
 			$value[ $k ] = $v;
 		}
 
-		if ( 1 == count( $value ) || ! $params->serial ) {
-			$value = trim( implode( $params->separator . ' ', $value ), $params->separator . ' ' );
-		} else {
-			$value = trim( implode( $params->separator . ' ', $value ), $params->separator . ' ' ) . apply_filters( 'pods_serial_comma', $params->separator . ' ', $value, $original_value, $params );
+		$has_serial_comma = $params->serial && 1 < count( $value );
+
+		$value = trim( implode( $params->separator, $value ), $params->separator . ' ' );
+
+		// Add final serial comma.
+		if ( $has_serial_comma ) {
+			/**
+			 * Allow filtering the final serial comma (before the "and") used for pods_serial_comma.
+			 *
+			 * @since unknown
+			 *
+			 * @param string $serial_comma   The serial comma content used, return an empty string to disable (default ", ").
+			 * @param string $value          The formatted value.
+			 * @param string $original_value The original value input into pods_serial_comma.
+			 * @param object $params         The list of the setup parameters for pods_serial_comma.
+			 */
+			$serial_comma = apply_filters( 'pods_serial_comma', $params->separator, $value, $original_value, $params );
+
+			if ( '' !== $serial_comma ) {
+				$value .= $serial_comma;
+			}
 		}
 
 		$value = trim( $value );
@@ -2062,37 +2198,7 @@ function pods_list_filter( $list, $args = array(), $operator = 'AND' ) {
 		$data   = get_object_vars( $data );
 	}
 
-	$operator = strtoupper( $operator );
-	$count    = count( $args );
-	$filtered = array();
-
-	foreach ( $data as $key => $obj ) {
-		$to_match = $obj;
-
-		if ( is_object( $to_match ) ) {
-			$to_match = get_object_vars( $to_match );
-		} elseif ( ! is_array( $to_match ) ) {
-			continue;
-		}
-
-		$matched = 0;
-
-		foreach ( $args as $m_key => $m_value ) {
-			if ( array_key_exists( $m_key, $to_match ) && $m_value == $to_match[ $m_key ] ) {
-				$matched ++;
-			}
-		}
-
-		if ( 'AND' === $operator && $matched == $count ) {
-			$filtered[ $key ] = $obj;
-		} elseif ( 'OR' === $operator && $matched > 0 ) {
-			$filtered[ $key ] = $obj;
-		} elseif ( 'NOT' === $operator && 0 == $matched ) {
-			$filtered[ $key ] = $obj;
-		} else {
-			continue;
-		}
-	}//end foreach
+	$filtered = wp_list_filter( $data, $args, $operator );
 
 	if ( $object ) {
 		$filtered = (object) $filtered;

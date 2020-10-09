@@ -99,14 +99,22 @@ class PodsField_Pick extends PodsField {
 		add_action( 'wp_ajax_nopriv_pods_relationship', array( $this, 'admin_ajax_relationship' ) );
 
 		// Handle modal input.
+		add_action( 'pods_meta_box_pre', array( $this, 'admin_modal_input' ) );
 		add_action( 'edit_form_top', array( $this, 'admin_modal_input' ) );
 		add_action( 'show_user_profile', array( $this, 'admin_modal_input' ) );
 		add_action( 'edit_user_profile', array( $this, 'admin_modal_input' ) );
-		add_action( 'edit_category_form', array( $this, 'admin_modal_input' ) );
-		add_action( 'edit_link_category_form', array( $this, 'admin_modal_input' ) );
-		add_action( 'edit_tag_form', array( $this, 'admin_modal_input' ) );
-		add_action( 'add_tag_form', array( $this, 'admin_modal_input' ) );
-		add_action( 'pods_meta_box_pre', array( $this, 'admin_modal_input' ) );
+
+		// Hook into every taxonomy form.
+		$taxonomies = get_taxonomies();
+
+		foreach ( $taxonomies as $taxonomy ) {
+			if ( $taxonomy instanceof WP_Term ) {
+				$taxonomy = $taxonomy->name;
+			}
+
+			add_action( $taxonomy . '_add_form', array( $this, 'admin_modal_input' ) );
+			add_action( $taxonomy . '_edit_form', array( $this, 'admin_modal_input' ) );
+		}
 
 		// Handle modal saving.
 		add_filter( 'redirect_post_location', array( $this, 'admin_modal_bail_post_redirect' ), 10, 2 );
@@ -167,6 +175,29 @@ class PodsField_Pick extends PodsField {
 					)
 				),
 				'dependency' => true,
+			),
+			static::$type . '_display_format_multi'   => array(
+				'label'      => __( 'Display Format', 'pods' ),
+				'help'       => __( 'Used as format for front-end display', 'pods' ),
+				'depends-on' => array( static::$type . '_format_type' => 'multi' ),
+				'default'    => 'default',
+				'type'       => 'pick',
+				'data'       => array(
+					'default'    => __( 'Item 1, Item 2, and Item 3', 'pods' ),
+					'non_serial' => __( 'Item 1, Item 2 and Item 3', 'pods' ),
+					'custom'     => __( 'Custom separator (without "and")', 'pods' ),
+				),
+				'dependency' => true,
+			),
+			static::$type . '_display_format_separator'   => array(
+				'label'      => __( 'Display Format Separator', 'pods' ),
+				'help'       => __( 'Used as separator for front-end display. This also turns off the "and" portion of the formatting.', 'pods' ),
+				'depends-on' => array(
+					static::$type . '_display_format_multi' => 'custom',
+					static::$type . '_format_type'          => 'multi',
+				),
+				'default'    => ', ',
+				'type'       => 'text',
 			),
 			static::$type . '_allow_add_new'  => array(
 				'label'       => __( 'Allow Add New', 'pods' ),
@@ -719,13 +750,30 @@ class PodsField_Pick extends PodsField {
 			}
 		}
 
-		return pods_serial_comma(
-			$value, array(
-				'field'  => $name,
-				'fields' => $fields,
-			)
+		$args = array(
+			'field'  => $name,
+			'fields' => $fields,
 		);
 
+		$display_format = pods_v( static::$type . '_display_format_multi', $options, 'default' );
+
+		if ( 'non_serial' === $display_format ) {
+			$args['serial'] = false;
+		}
+
+		if ( 'custom' === $display_format ) {
+			$args['serial'] = false;
+
+			$separator = pods_v( static::$type . '_display_format_separator', $options, ', ' );
+			if ( ! empty( $separator ) ) {
+				$args['separator'] = $separator;
+
+				// Replicate separator behavior.
+				$args['and'] = $args['separator'];
+			}
+		}
+
+		return pods_serial_comma( $value, $args );
 	}
 
 	/**
@@ -972,6 +1020,29 @@ class PodsField_Pick extends PodsField {
 					}
 				}
 
+				// Determine the default icon to use for this post type,
+				// default to the dashicon for posts
+				$config[ 'default_icon' ] = 'dashicons-admin-post';
+
+				// Any custom specified menu icon gets priority
+				$post_type = get_post_type_object( $args->options[ 'pick_val' ] );
+				if ( ! empty( $post_type->menu_icon ) ) {
+					$config[ 'default_icon' ] = $post_type->menu_icon;
+
+				// Page and attachment have their own dashicons
+				} elseif ( isset( $post_type->name ) ) {
+					switch ( $post_type->name ) {
+						case 'page':
+							// Default for pages.
+							$config[ 'default_icon' ] = 'dashicons-admin-page';
+							break;
+						case 'attachment':
+							// Default for attachments.
+							$config[ 'default_icon' ] = 'dashicons-admin-media';
+							break;
+					}
+				}
+
 				break;
 
 			case 'taxonomy':
@@ -1134,7 +1205,6 @@ class PodsField_Pick extends PodsField {
 	 */
 	public function build_dfv_field_item_data_recurse_item( $item_id, $item_title, $args ) {
 
-		$use_dashicon = false;
 		$icon         = '';
 		$img_icon     = '';
 		$edit_link    = '';
@@ -1146,8 +1216,6 @@ class PodsField_Pick extends PodsField {
 
 		switch ( $args->options['pick_object'] ) {
 			case 'post_type':
-				$item_id = (int) $item_id;
-
 				if ( null === $args->options['supports_thumbnails'] && ! empty( $args->options['pick_val'] ) ) {
 					$args->options['supports_thumbnails'] = post_type_supports( $args->options['pick_val'], 'thumbnail' );
 				}
@@ -1196,8 +1264,6 @@ class PodsField_Pick extends PodsField {
 				break;
 
 			case 'taxonomy':
-				$item_id = (int) $item_id;
-
 				if ( ! empty( $args->options['pick_val'] ) ) {
 
 					// Default icon for taxonomy.
@@ -1220,8 +1286,6 @@ class PodsField_Pick extends PodsField {
 				break;
 
 			case 'user':
-				$item_id = (int) $item_id;
-
 				$args->options['supports_thumbnails'] = true;
 
 				$icon     = 'dashicons-admin-users';
@@ -1234,8 +1298,6 @@ class PodsField_Pick extends PodsField {
 				break;
 
 			case 'comment':
-				$item_id = (int) $item_id;
-
 				$args->options['supports_thumbnails'] = true;
 
 				$icon     = 'dashicons-admin-comments';
@@ -1248,8 +1310,6 @@ class PodsField_Pick extends PodsField {
 				break;
 
 			case 'pod':
-				$item_id = (int) $item_id;
-
 				if ( ! empty( $args->options['pick_val'] ) ) {
 
 					$icon = 'dashicons-pods';
@@ -1280,13 +1340,13 @@ class PodsField_Pick extends PodsField {
 		// Parse icon type
 		if ( 'none' === $icon || 'div' === $icon ) {
 			$icon         = '';
-			$use_dashicon = true;
-		} elseif ( 0 === strpos( $icon, 'data:image/svg+xml;base64,' ) ) {
-			$icon         = esc_attr( $icon );
-			$use_dashicon = false;
 		} elseif ( 0 === strpos( $icon, 'dashicons-' ) ) {
 			$icon         = sanitize_html_class( $icon );
-			$use_dashicon = true;
+		}
+
+		// #5740 Check for WP_Error object.
+		if ( ! is_string( $link ) ) {
+			$link = '';
 		}
 
 		// Support modal editing
@@ -1295,38 +1355,50 @@ class PodsField_Pick extends PodsField {
 			$edit_link = add_query_arg( array( 'pods_modal' => '1' ), $edit_link );
 		}
 
-		// Determine if this is a selected item
+		// Determine if this is a selected item.
+		// Issue history for setting selected: #4753, #4892, #5014.
 		$selected = false;
 
-		if ( is_array( $args->value ) ) {
-			if ( ! isset( $args->value[0] ) ) {
-				$keys = array_map( 'strval', array_keys( $args->value ) );
+		$values = array();
 
-				if ( in_array( (string) $item_id, $keys, true ) ) {
-					$selected = true;
-				}
+		// If we have values, let's cast them.
+		if ( ! empty( $args->value ) ) {
+			// The value may be a single non-array value.
+			$values = (array) $args->value;
+		}
+
+		// Cast values in array as string.
+		$values = array_map( 'strval', $values );
+
+		// If the value array has keys as IDs, let's check for matches from the keys first.
+		if ( ! isset( $values[0] ) ) {
+			// Get values from keys.
+			$key_values = array_keys( $values );
+
+			// Cast key values in array as string.
+			$key_values = array_map( 'strval', $key_values );
+
+			// Let's check to see if the current $item_id matches any key values.
+			if ( in_array( (string) $item_id, $key_values, true ) ) {
+				$selected = true;
 			}
+		}
 
-			if ( ! $selected ) {
-				// Cast values in array as string.
-				$args->value = array_map( 'strval', $args->value );
-
-				if ( in_array( (string) $item_id, $args->value, true ) ) {
-					$selected = true;
-				}
+		// If we do not have a key match, the normal values may still match.
+		if ( ! $selected ) {
+			// Let's check to see if the current $item_id matches any values.
+			if ( in_array( (string) $item_id, $values, true ) ) {
+				$selected = true;
 			}
-		} elseif ( (string) $item_id === (string) $args->value ) {
-			$selected = true;
 		}
 
 		$item = array(
-			'id'           => $item_id,
-			'use_dashicon' => $use_dashicon,
-			'icon'         => $icon,
-			'name'         => $item_title,
-			'edit_link'    => $edit_link,
-			'link'         => $link,
-			'selected'     => $selected,
+			'id'        => esc_html( $item_id ),
+			'icon'      => esc_attr( $icon ),
+			'name'      => esc_html( wp_kses_post( html_entity_decode( $item_title ) ) ),
+			'edit_link' => esc_url( $edit_link ),
+			'link'      => esc_url( $link ),
+			'selected'  => $selected,
 		);
 
 		return $item;
@@ -1813,12 +1885,6 @@ class PodsField_Pick extends PodsField {
 
 		$labels = array();
 
-		$check_value = $value;
-
-		foreach ( $check_value as $check_k => $check_v ) {
-			$check_value[ $check_k ] = (string) $check_v;
-		}
-
 		foreach ( $data as $v => $l ) {
 			if ( ! in_array( (string) $l, $labels, true ) && ( (string) $value === (string) $v || ( is_array( $value ) && in_array( (string) $v, $value, true ) ) ) ) {
 				$labels[] = (string) $l;
@@ -1924,6 +1990,27 @@ class PodsField_Pick extends PodsField {
 				'limit'       => 0,
 			), $object_params
 		);
+
+		/**
+		 * Overwrite parameters used by PodsField_Pick::get_object_data.
+		 *
+		 * @since 2.7.21
+		 *
+		 * @param array  $object_params       {
+		 *     Get object parameters
+		 *
+		 *     @type string     $name        Field name.
+		 *     @type mixed      $value       Current value.
+		 *     @type array      $options     Field options.
+		 *     @type array      $pod         Pod data.
+		 *     @type int|string $id          Current item ID.
+		 *     @type string     $context     Data context.
+		 *     @type array      $data_params Data parameters.
+		 *     @type int        $page        Page number of results to get.
+		 *     @type int        $limit       How many data items to limit to (autocomplete defaults to 30, set to -1 or 1+ to override).
+		 * }
+		 */
+		$object_params = apply_filters( 'pods_field_pick_object_data_params', $object_params );
 
 		$object_params['options']     = (array) $object_params['options'];
 		$object_params['data_params'] = (array) $object_params['data_params'];
@@ -2085,10 +2172,10 @@ class PodsField_Pick extends PodsField {
 							$search_data->field_index = $display;
 
 							$params['select'] = "`t`.`{$search_data->field_id}`, `t`.`{$search_data->field_index}`";
-						} elseif ( isset( $options['table_info']['pod']['fields'][ $display ] ) ) {
-							$search_data->field_index = $display;
+						} else {
+							$search_data->field_index = sanitize_key( $display );
 
-							if ( 'table' === $options['table_info']['pod']['storage'] && ! in_array(
+							if ( isset( $options['table_info']['pod']['fields'][ $display ] ) && 'table' === $options['table_info']['pod']['storage'] && ! in_array(
 								$options['table_info']['pod']['type'], array(
 									'pod',
 									'table',
